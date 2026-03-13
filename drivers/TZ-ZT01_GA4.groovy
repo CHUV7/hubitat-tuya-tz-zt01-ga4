@@ -13,8 +13,8 @@
  *    - [name] - Probe Temp    -> Generic Component Temperature Sensor
  *    - [name] - Humidity      -> Generic Component Humidity Sensor
  *
- *  Author: Claude / Anthropic (custom driver)
- *  Version: 1.3.0
+ *  Author: CHUV7 with the extreme help of Claude AI
+ *  Version: 1.3.1
  *  Date: 2026-03-12
  */
 
@@ -23,8 +23,8 @@ import groovy.transform.Field
 metadata {
     definition(
         name: "Tuya TZ-ZT01_GA4 Temp/Humidity + Probe",
-        namespace: "custom",
-        author: "Custom",
+        namespace: "CHUV7",
+        author: "CHUV7",
         importUrl: "https://raw.githubusercontent.com/CHUV7/hubitat-tuya-tz-zt01-ga4/refs/heads/main/drivers/TZ-ZT01_GA4.groovy"
     ) {
         capability "TemperatureMeasurement"
