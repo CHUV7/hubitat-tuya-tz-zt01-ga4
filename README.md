@@ -3,6 +3,8 @@
 A custom Hubitat driver for the cheap AliExpress **Tuya TZ-ZT01_GA4** Zigbee temperature and humidity sensor with an external temperature probe (https://www.zigbee2mqtt.io/devices/TZ-ZT01_GA4.html). 
 Most generic drivers only expose the ambient temperature senso. This driver exposes all four data points the device reports, including the external probe. It's also setup to provide child devices for each sensor so they can be used in Hubitat's Safety Monitor. I'm using these probes for to monitor freezers and provide warnings if the temp is above 0.
 
+![TZ-ZT01_GA4 Sensor](TZ-ZT01_GA4.png)
+
 ---
 
 ## Supported Device
